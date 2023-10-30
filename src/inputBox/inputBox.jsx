@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import nameList from "../constant/data.json"
 import MentionDataDropDown from './mentionDataDropDown/mentionDataDropDown';
+import InputBoxComponent from './inputBoxComponent';
 
 export default function InputBox() {
 
@@ -33,7 +34,7 @@ export default function InputBox() {
 
     return (
         <>
-            <input type="text" placeholder='Mention' value={data} onChange={handleChange} />
+            <InputBoxComponent value={data} onChange={handleChange} />
             {
                 mentionData.length > 0
                 &&
