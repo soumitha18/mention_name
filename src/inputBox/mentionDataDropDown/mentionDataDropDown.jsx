@@ -2,7 +2,7 @@ import "../style.css"
 
 export default function MentionDataDropDown({ mentionData, handleClick }) {
     return (
-        <div className="dropdown">
+        <div className="dropdown" data-test="drop-down-list">
             {
                 mentionData.map(item => (
                     <div 

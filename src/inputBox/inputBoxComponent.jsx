@@ -6,6 +6,7 @@ export default function InputBoxComponent({ value, onChange }) {
             placeholder='Mention'
             value={value}
             onChange={onChange}
+            data-test="input-component"
         />
     )
 }
