@@ -39,4 +39,4 @@ app will run in `http://localhost:3000/`
 <img src="images/completed.png" width="80%"/>
 
 ## Cypress Setup and run 
-[cypress]()
+[cypress](https://github.com/soumitha18/mention_name/tree/main/cypress/README.md)
